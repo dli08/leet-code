@@ -7,7 +7,7 @@ int reverse(int x)
         result=result*10+ x%10;
         x= x/10;
     }
-    if(x>INT_MAX||x<INT_MIN)
+    if(result>INT_MAX||result<INT_MIN)
         return 0;
         
     else
